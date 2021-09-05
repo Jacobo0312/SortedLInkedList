@@ -19,19 +19,14 @@ public class Main {
        SortedLinkedList<Person> list=new SortedLinkedList<>();
 
        list.add(test1);
-       toString(list);
        list.add(test2);
-       toString(list);
        list.add(test3);
-       toString(list);
        list.add(test4);
-       toString(list);
        list.add(test5);
-       toString(list);
        list.add(test6);
+  
+
        toString(list);
-
-
 
     }
 

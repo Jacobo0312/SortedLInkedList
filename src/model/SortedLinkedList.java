@@ -1,6 +1,6 @@
 package model;
 
-public class SortedLinkedList<E> {
+public class SortedLinkedList<E> implements ISortedLinekedList<E> {
 
     private Node<E> head;
     private int size;
@@ -22,9 +22,6 @@ public class SortedLinkedList<E> {
         return size;
     }
 
-    public void setSize(int size) {
-        this.size = size;
-    }
 
     public void add(E e) {
 
